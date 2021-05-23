@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 
+font-family: 'Heebo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 36px;
+  font-family: "Heebo", sans-serif;
+}
+p {
+  font-size: 14px;
+}
+
+.wrapper {
+  /* margin: 42px 56px auto 52px; */
+  margin: 0 auto;
+  margin-top: 42px;
+  max-width: 1440px;
+  height: auto;
+}
+/* Header-comp */
+header {
+  display: flex;
+  height: 52px;
+}
+.logo {
+  flex: 1;
+}
+.nav {
+  display: flex;
+  align-self: center;
+  width: 703px;
+  height: 36px;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.nav a:nth-child(1) {
+  color: grey;
+}
+/* Main-comp */
+main {
+  margin-top: 104px;
+  margin-bottom: 200px;
+}
+/* Hero-Comp */
+.hero-comp {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.hero-top {
+  max-width: 543px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 277px;
+}
+.hero-top h1,
+h4 {
+  font-weight: 500;
+}
+.hero-top h4 {
+  color: #2d9cdb;
+}
+.hero-mid {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-img {
+  margin-top: 42px;
+  width: 1332px;
+  height: 354px;
+  border-radius: 18px;
+}
+.hero-bot {
+  margin-top: 42px;
+  margin-left: 277px;
+  max-width: 366px;
+  font-family: "Poppins", sans-serif;
+}
+.hero-bot h1 {
+  font-weight: 500;
+}
+.hero-bot h4 {
+  font-weight: 400;
+  margin-top: 42px;
+  color: #4f4f4f;
+}
+.hero-bot p {
+  font-weight: 500;
+  margin-top: 42px;
+  color: #828282;
+}
+/*  */
+.hero-form {
+  margin-top: 9px;
+  max-width: 350px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+}
+input {
+  width: 100%;
+  height: 57px;
+  border: none;
+  outline: none;
+  background: none;
+  margin-left: 20px;
+}
+input::placeholder {
+  font-size: 18px;
+  color: #bdbdbd;
+  /* padding-left: 21px; */
+}
+
+button {
+  width: 94px;
+  height: 49px;
+  border: none;
+  border-radius: 12px;
+  background: #2d9cdb;
+  color: white;
+  font-size: 18px;
+  padding: 11px 28px 11px 27px;
+}
