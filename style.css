@@ -61,16 +61,16 @@ header {
   font-size: 24px;
   font-weight: 500;
 }
-.nav a:nth-child(1) {
+/* .nav a:nth-child(1) {
   color: grey;
-}
+} */
 /* Main-comp */
 main {
   margin-top: 104px;
   margin-bottom: 200px;
 }
 /* Hero-Comp */
-.hero-comp {
+#hero-comp {
   height: auto;
   display: flex;
   flex-direction: column;
@@ -141,7 +141,7 @@ input::placeholder {
   /* padding-left: 21px; */
 }
 
-button {
+.hero-button {
   width: 94px;
   height: 49px;
   border: none;
@@ -150,4 +150,98 @@ button {
   color: white;
   font-size: 18px;
   padding: 11px 28px 11px 27px;
+}
+/* Service Comp */
+#service-comp {
+  margin-top: 200px;
+  font-family: "Poppins", sans-serif;
+}
+.service-title {
+  max-width: 346px;
+}
+.service-title h2 {
+  font-weight: 500;
+}
+/* Service Card Comp */
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  height: 460px;
+  justify-content: space-between;
+}
+/* cards */
+.service-card {
+  max-width: 341px;
+  max-height: 460px;
+  background-color: whitesmoke;
+  padding: 46px 34px;
+  border-radius: 24px;
+  margin-top: 42px;
+}
+.service-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.card-img1 {
+  width: 67px;
+  height: 67px;
+  background-color: #2d9cdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.card-img2 {
+  width: 67px;
+  height: 67px;
+  background-color: #27ae60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.card-img3 {
+  width: 67px;
+  height: 67px;
+  background-color: #eb5757;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.fas {
+  font-size: 1.7rem;
+  color: white;
+}
+/* card-text */
+.card-title {
+  margin-top: 35px;
+}
+.card-title h3 {
+  font-weight: 700;
+}
+.card-detail {
+  margin-top: 24px;
+  color: #4f4f4f;
+}
+.card-detail h5 {
+  font-weight: 400;
+}
+.card-button {
+  margin-top: 30px;
+}
+.card-button button {
+  width: 116px;
+  height: 42px;
+  font-size: 16px;
+  color: #828282;
+  background: #e0e0e0;
+  border-radius: 12px;
+  border: none;
+  font-weight: 500;
+}
+.card-button button:hover {
+  background: #2d9cdb;
+  color: white;
 }
