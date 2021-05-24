@@ -240,8 +240,22 @@ input::placeholder {
   border-radius: 12px;
   border: none;
   font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 .card-button button:hover {
   background: #2d9cdb;
   color: white;
+}
+/* Work section */
+#work-comp {
+  margin-top: 194px;
+}
+.work-title {
+  max-width: 448px;
+}
+.work-title h2 {
+  font-weight: 500;
+}
+.work-card {
+  margin-top: 12px;
 }
